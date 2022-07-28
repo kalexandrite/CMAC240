@@ -1,2 +1,2 @@
-# CMAC240
-Class Website
+# K.Alexandrite
+Public Repository and Website
