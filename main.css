@@ -1,0 +1,153 @@
+* {
+    box-sizing:border-box;
+    height=100%
+  }
+  
+  body {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color:#f5f8dd;
+    background-color: #7094ff;
+    background-image: url('img/6.png');
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    color:  #f5f8dd;
+    text-align: center;
+    text-shadow: #436be3;
+    background-image: url('img/images-1.png');
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    fill-opacity: 20%;
+    background-image: url('img/46.png');
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: #f8ffbd;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content:space-evenly;
+    padding: 8px 30px;
+    color: #4f7bff;
+    text-decoration: none;
+
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color:#4f7bff;
+    color: #ffffff;
+    ;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    text-align: left;
+    width: 65%;
+    height: fit-content;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 35%;
+    padding-left: 0px;
+  }
+  
+  /* Fake image */
+  
+  .fakeimg {
+    flex-grow: 0;
+    background-image: url('img/13.png');
+    background-size: cover;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 30%vw;
+  }
+
+  .fakeimg40 {
+    flex: 1 1 auto;
+    background-image: url('img/40.png'); 
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+
+  .fakeimg41 {
+    padding: 10px;
+    height: fit-content;
+  }
+
+  /* Add a card effect for articles */
+  .card {
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .cardheader {
+    text-align: center;
+    padding: .5rem;
+    margin-top: .5rem;
+    background-image: url('img/images-1.png');
+  } 
+
+  button{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 800;
+    justify-items: stretch;
+    min-width: 15rem;
+    background-color: #7094ff;
+    border: 10px;
+    color: #f5f8dd;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.button1{
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 800;
+  justify-items: stretch;
+  min-width: 15rem;
+  background-color: #7094ff;
+  border: 10px;
+  font-size: 1rem;
+  color: #f5f8dd;
+  justify-content: center;
+  margin-left: 5%;
+
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }

@@ -1,0 +1,71 @@
+let quotes = [
+  {
+    quote:'It doesn\'t matter how slowly you go, as long as you donn\'t stop. -Confucious'
+}
+  {
+'Believe in yourself. You are braver than you think, more talented that you know and capable of more than you can imagine. -Roy. T. Bennet'
+}
+  {'The past cannot be changed, the future is yet in your power,'}
+  
+  {'What you do today can improve all of your tomorrows. -Ralph Marston'}
+  
+  {'If you cannot do great things, do small things in a great way. -Napolean Hill'}
+  
+  
+  
+  'Work hard in silence, let your success be your noise.'
+  
+  'You begin by always expecting good things to happen. -Tom Hopkins'
+  
+  'It always seems impossible until it\'s done. -Nelson Mandela'
+  
+  'Don\'t stop when you\'re tired. Stop when you are done.'
+  
+  'Don\'t limit your challenges, challenge your limits.'
+  
+  'The most common way for people to give up their power is by thinking they don\'t have any. -Alice Walker'
+  
+  'The trouble is, if you don\'t risk anything, you risk more. -Erica Jong'
+  
+  'Only I can change my life, no one can do it for me. -Carol Burnett'
+  
+  'People who are crazy enough to think they can change the world are the ones who do.  -Rob Siltanen'
+  
+  'One\'s finds limits by pushing them. -Herbert Simon'
+  
+  'Don\'t watch the clock. Do what it does and keep going. -Sam Levenson'
+  
+  'Life is 10% what happens to you and 90% how you react to it. -Charles R. Swindol'
+  
+  'Life begins at the end of your comfort zone.'
+  
+  'Live as if you were to die tomorrow, learn as if you were to live forever. -Mahatma Gandi'
+  
+  'Life is hard, but so very beautiful. -Abraham Lincoln'
+  
+  'The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it. – Michealangelo'
+  
+  'I am not judged by the number of times I fail, but by the number of times I succeed. -Tom Hopkins'
+  
+  'Why do we close our eyes when we pray, cry, kiss or dream? Because the most beautiful things in life are not seen but felt by the heart. -Denzel Washington'
+  
+  'Power is not given to you, you have to take it. -Beyonce'
+  
+  'Be humble, be hungry, and always be the hardest worker in the room. -Dwayne Johnson'
+  
+  'Dream big and dream fierce. -Viola Davis'
+  
+  'Every failure is a lesson. If you are not willing to fail, you are not ready to succeed.'
+  
+  'We may encounter many defeats but we must not be defeated. – Maya Angelou'
+  
+  'Courage doesn\'t mean you don\'t get afraid. Courage means you don\'t let fear stop you.'
+  
+  'We are all a little broken, but last time I checked, broken crayons still color the same.'
+  
+  'If you want to be successful, prepare to be doubted and tested.'
+  
+  'Vision is the art of seeing what is invisible to others. -Johnathan Swift'
+  
+  'We can do no great things, only small things with great love. -Mother Theresa'
+  
